@@ -1,0 +1,88 @@
+/* 
+ * Author: Joshua Rodriguez
+ * Contact: joshua_rodriguez@student.uml.edu
+ * UMass Lowell student in GUI Programming 1 
+ * Date Created: 11.30.2016
+ * 
+ * Styles for the dynamic UI of the scrabble game
+ */
+
+
+/* letter tile style */
+.draggableTile {
+   width: 50px;
+   height: 50px;
+   float: left;
+   margin: 2.5px;
+}
+
+/* board space style */
+.droppableBoardSlot {
+   width: 60px;
+   height: 60px;
+   border: solid;
+   float: left;
+}
+
+/* Tile rack style */
+.rack {
+   width: 397px;
+   height: 120px;
+   margin: auto;
+   margin-top: 75px;
+   background-image: url("../images/Tile_Rack.png");
+}
+
+
+/* inner rack div to hold tiles */
+.innerRack {
+   width: 385px;
+   height: 50px;
+   padding-top: 45px;
+}
+
+/* Scrabble Row */
+.board {
+   width: 1050px;
+   height: 60px;
+   margin: auto;
+   margin-top: 75px;
+}
+
+/* controls for game play */
+.controls {
+   height: 30px;
+   width: 250px;
+   margin: auto;
+   margin-top: 40px;
+}
+
+/*End turn button */ 
+#submit {
+   background-color: pink;
+   height: 30px;
+   width: 100px;
+   font-size: 14px;
+   float: left;
+}
+
+/*label styling */
+.label {
+   height: 30px;
+   width: 100px;
+   background-color: pink;
+   float: left;
+   margin-left: 10px;
+}
+
+/*score text */
+#score {
+   height: 20px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-left: 8px;
+   
+}
+html {
+   background-image: url("../images/vegetation.jpg")
+}

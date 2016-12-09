@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+- Author: Joshua Rodriguez
+- Contact: joshua_rodriguez@student.uml.edu
+- UMass Lowell student in GUI Programming 1 
+- Date Created: 11.30.2016
+- Basic skeleton structures for holding a javascript scrabble implementation
+-->
+<html>
+   
+   <head>
+      <title>Scrabble!</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   
+   <body>
+      
+      
+      <!-- div for tile rack -->
+      <div class="rack">
+         <div class="innerRack"></div> 
+      </div>
+      
+      <!--board space container-->
+      <div class="board"></div>
+     
+      <!--Controls for game play -->
+      <div class="controls"> 
+         <!--submits turn-->
+         <button id="submit">Submit Turn</button> 
+         <!--displays score-->
+         <div class="label"><p id="score">Score: 0</p></div>
+      </div>
+      
+      
+      <!--jQuery CDNs-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <!--local JS-->
+      <script src="js/scrabble.js"></script>
+      
+   </body>
+</html>
